@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  margin-left:10px;
+  margin-top: 10px;
+}
+
+.bt1{
+  background-color: #61dafb;
+  border-radius: 11px;
+  border-style: solid;
+  text-align: center;
+  padding: 2px;
+  margin-left: 5px;
+  font-size: small;
+  font-stretch: normal;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  width: 90px;
+  height: 35px;
+}
+
+.bt2{
+  background-color: #61dafb;
+  border-radius: 11px;
+  border-style: solid;
+  text-align: center;
+  padding: 2px;
+  margin-left: 5px;
+  font-size: small;
+  font-stretch: normal;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  width: 90px;
+  height: 35px;  
+}
+
+.txtBox{
+  background-color:aliceblue;
+  width: 120px;
+  height: 20px;
+  margin-bottom: 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bt1:hover {
+  background-color:aqua; 
+  cursor: pointer;
+}
+
+.bt2:hover {
+  background-color:aqua; 
+  cursor: pointer;
+}
